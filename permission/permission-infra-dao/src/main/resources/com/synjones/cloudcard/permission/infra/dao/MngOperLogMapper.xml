@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.synjones.cloudcard.permission.infra.dao.MngOperLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.synjones.cloudcard.permission.infra.entity.MngOperLogEntity">
+        <id column="log_id" property="logId" />
+        <result column="title" property="title" />
+        <result column="biz_type" property="bizType" />
+        <result column="method" property="method" />
+        <result column="oper_type" property="operType" />
+        <result column="user_name" property="userName" />
+        <result column="oper_url" property="operUrl" />
+        <result column="oper_ip" property="operIp" />
+        <result column="oper_location" property="operLocation" />
+        <result column="oper_param" property="operParam" />
+        <result column="status" property="status" />
+        <result column="msg_info" property="msgInfo" />
+        <result column="created_stamp" property="createdStamp" />
+    </resultMap>
+
+</mapper>
