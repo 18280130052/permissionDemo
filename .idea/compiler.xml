@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="permission-core-service" />
+        <module name="permission-infra-dao" />
+        <module name="permission-infra-provider" />
+        <module name="permission-provider-impl" />
+        <module name="permission-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="permission" target="1.8" />
+      <module name="permission-core-service" target="1.8" />
+      <module name="permission-infra-dao" target="1.8" />
+      <module name="permission-infra-provider" target="1.8" />
+      <module name="permission-provider-impl" target="1.8" />
+      <module name="permission-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="permission-core-service" options="-parameters" />
+      <module name="permission-infra-dao" options="-parameters" />
+      <module name="permission-infra-provider" options="-parameters" />
+      <module name="permission-provider-impl" options="-parameters" />
+    </option>
+  </component>
+</project>
