@@ -10,7 +10,6 @@ import com.synjones.common.share.request.BasePageRequest;
 import com.synjones.common.share.response.BaseCommonResponse;
 import com.synjones.common.share.response.BasePageResponse;
 import com.synjones.common.share.response.BaseResponse;
-
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 

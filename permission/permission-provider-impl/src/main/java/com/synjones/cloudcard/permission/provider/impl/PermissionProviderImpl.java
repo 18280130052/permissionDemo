@@ -15,7 +15,6 @@ import com.synjones.common.share.response.BasePageResponse;
 import com.synjones.common.share.response.BaseResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
